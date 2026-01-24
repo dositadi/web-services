@@ -20,18 +20,18 @@ func ProcessTask(current int, tasks <-chan Task, results chan<- Result) {
 		fmt.Println("Processing task: ", task.ID, "Value: ", task.Value)
 		time.Sleep(time.Millisecond * 100)
 		results <- Result{ID: task.ID, Value: task.Value * 2}
-		fmt.Println("Processed task ", task.ID, " completely, with value: ", task.Value)
 	}
-	fmt.Println("Current: ", current)
+	fmt.Println("Processed task ", current)
 }
 
 func main() {
+	var numWorkers = 3
 	var amountOfTasks = 10
 
-	tasks := make(chan Task)
-	results := make(chan Result)
+	tasks := make(chan Task, amountOfTasks/2)
+	results := make(chan Result, amountOfTasks)
 
-	for i := range amountOfTasks {
+	for i := range numWorkers {
 		go ProcessTask(i, tasks, results)
 	}
 
