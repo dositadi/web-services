@@ -1,0 +1,72 @@
+{
+ "add120": {
+  "ID": "user-01",
+  "Name": "Akama Idion",
+  "Department": "Finance",
+  "Address": {
+   "Street": "1 Jude street",
+   "City": "Hamona",
+   "State": "Riela"
+  }
+ },
+ "add127": {
+  "ID": "user-05",
+  "Name": "Kasandra Onu",
+  "Department": "Secretariat",
+  "Address": {
+   "Street": "1 kapsula street",
+   "City": "Huga",
+   "State": "Dresa"
+  }
+ },
+ "add132": {
+  "ID": "user-02",
+  "Name": "Abek John",
+  "Department": "Logistics",
+  "Address": {
+   "Street": "1 Kogo street",
+   "City": "Tamo",
+   "State": "Riela"
+  }
+ },
+ "add143": {
+  "ID": "user-03",
+  "Name": "Rebecca Kijoremi",
+  "Department": "Administration",
+  "Address": {
+   "Street": "1 Dramo street",
+   "City": "Lokongoma",
+   "State": "Kogi"
+  }
+ },
+ "add159": {
+  "ID": "user-04",
+  "Name": "Philemon Oti",
+  "Department": "Production",
+  "Address": {
+   "Street": "1 Julani street",
+   "City": "Tiv",
+   "State": "Benue"
+  }
+ },
+ "add431": {
+  "ID": "user-09",
+  "Name": "Beatrice Akande",
+  "Department": "Administration",
+  "Address": {
+   "Street": "1 Crusher Avenue",
+   "City": "Magongo",
+   "State": "Kogi"
+  }
+ },
+ "add453": {
+  "ID": "user-20",
+  "Name": "Enebe Peace",
+  "Department": "Human Resources",
+  "Address": {
+   "Street": "1 Jude Avenue",
+   "City": "Aroko",
+   "State": "Benue"
+  }
+ }
+}
